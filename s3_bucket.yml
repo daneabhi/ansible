@@ -6,7 +6,7 @@
   tasks:
   - name: creating simple s3 bucket
     amazon.aws.s3_bucket:
-       name: ansiblebuck7757
+       name: ansiblebuck77579249
        state: present
        region: us-east-1
        aws_access_key: "{{ aws_access_key }}"
